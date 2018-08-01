@@ -14,6 +14,7 @@ body{
     margin-right: 7.5%;
     margin-bottom: 10%;
     background-color: white;
+    box-shadow: 20px 20px 10px grey;
 }
 
 #logo{
@@ -171,6 +172,10 @@ footer{
 
 .mySlides {
     display: none;
+}
+
+#slide{
+    height: 400px;
 }
 
 
