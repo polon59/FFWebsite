@@ -1,3 +1,19 @@
+@font-face {
+    font-family: LightItalic;
+    src: url("../Poppins/Poppins-ExtraLightItalic.ttf");
+}
+
+@font-face {
+    font-family: regular;
+    src: url("../Poppins/Poppins-Regular.ttf");
+}
+
+p {
+    font-size: 16px; 
+    font-size: 1.3vw;
+}
+
+
 header{
     text-align: center;
 }
@@ -5,16 +21,17 @@ header{
 body{
     margin: 0px;
     background-color: black;
-    background-image: url("../Resources/metalBackground.jpg");
+    background-image: url("../Resources/bodyBackground.png");
 }
 
 #MAIN{
-    margin-top: 3%;
+    font-family: regular;
+    margin-top: 0%;
     margin-left: 7.5%;
     margin-right: 7.5%;
     margin-bottom: 10%;
-    background-color: white;
-    box-shadow: 20px 20px 10px grey;
+    background-color: rgba(114, 114, 114, 0.021);
+
 }
 
 #logo{
@@ -22,9 +39,18 @@ body{
     height: 15%;
 }
 
+.logoTextBox{
+    color: white;
+    font-family: LightItalic;
+    text-align: center;
+    white-space: normal;
+    
+}
+
 a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    font-size: 1.5vw;
 }
 
 li{
@@ -34,13 +60,18 @@ li{
 #navbar{
     display: inline-block;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.89);
+    height: 5.7vw;
     margin: 0;
     padding: 0;
     position: sticky;
     text-align: center;
     top: 0;
     z-index: 1;
+
+    background-color: rgba(128, 128, 128, 0.479);
+    background-image: url("../Resources/StructureImages/topNavBar.png");
+    background-size:100%;
+    background-repeat: no-repeat;
 }
 
 ul.navList{
@@ -48,15 +79,18 @@ ul.navList{
     float: none;
     text-align: center;
     padding: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 li.navOpt{
     float: left;
+    padding: 0px 7px;
 }
 
 li.navOpt a{
     text-align: center;
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
 }
 
 li.navOpt a:hover {
@@ -66,7 +100,6 @@ li.navOpt a:hover {
 div.galleryElement {
     margin-left: 25px;
     margin-right: 25px;
-    border: 1px solid rgb(255, 255, 255);
     float: left;
     width: 150px;
     height: 120%;
@@ -88,7 +121,6 @@ div.galleryElement:hover {
 .gallery{
     margin-left: 25px;
     margin-right: 25px;
-    border: 1px solid rgb(255, 255, 255);
     float: left;
     width: 150px;
     height: 120%;
@@ -105,6 +137,7 @@ div.galleryElement:hover {
     text-align: center;
 }
 
+/* setting size of products images */
 .container {
     position: relative;
     width: auto;
@@ -128,13 +161,16 @@ div.galleryElement:hover {
     height: 35%;
   }
 
+
 .gallery img{
     width: 80%;
     height: auto;
+    /* box-shadow: 20px 20px 50px 10px grey; */
 }
 
+/* setting size of products images */
 #productsGallery img{
-    width: 100%;
+    width: 85%;
     height: auto;
 }
 
@@ -172,11 +208,11 @@ footer{
 
 .mySlides {
     display: none;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    height: auto;
 }
 
-#slide{
-    height: 400px;
-}
 
 
 /* Slideshow container */
@@ -232,9 +268,9 @@ footer{
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 @-webkit-keyframes fade {
