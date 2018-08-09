@@ -67,45 +67,21 @@ body{
     background-repeat: no-repeat;
 }
 
-.navListContainer{
-    height: 5.7vw;
+.navbarRow{
+    display: table;
+    width: 100%; /*Optional*/
+    max-height: 2vw;
+    table-layout: fixed; /*Optional*/
+    border-spacing: 1px;
+    max-height: 100%;
 }
 
-a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 1.5vw;
-}
 
-ul.navList{
-    display: inline-block;
-    float: none;
+.navbarBox{
+    display: table-cell;
     text-align: center;
-    padding: 0;
-    margin: 0;
-    margin-left: 10%;
-    margin-top: 2%;
-    height: 5.7vw;
-}
-
-li{
-    list-style-type: none; 
-}
-
-li.navOpt{
-    float: left;
-    padding: 0px 7px;
-    text-align: center;
-    height: 5.7vw;
-}
-
-li.navOpt a{
-    text-align: center;
-    height: 5.7vw;
-}
-
-li.navOpt a:hover {
-    color: rgb(189, 161, 22);
+    color: white;
+    max-height: 100%;
 }
 
 /* BOX MENU ================================== */
@@ -115,7 +91,7 @@ li.navOpt a:hover {
 {
     display: table;
     width: 100%; /*Optional*/
-    max-height: 2vw;
+    /* max-height: 2vw; */
     table-layout: fixed; /*Optional*/
     border-spacing: 5px; /*Optional*/
 }
@@ -125,6 +101,7 @@ li.navOpt a:hover {
     display: table-cell;
     text-align: center;
     background-color: rgba(253, 180, 24, 0.897);
+    height: 50px;
 }
 
 .box img{
