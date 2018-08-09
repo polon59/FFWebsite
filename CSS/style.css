@@ -114,42 +114,11 @@ body{
 }
 
 .box img{
-    max-width: 8vw;
-    max-height: 8vw;
+    max-width: 5vw;
+    max-height: 5vw;
 }
 
 
-
-
-
-
-/* 
-.flexContainer{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.gallery{
-    margin-left: 25px;
-    margin-right: 25px;
-    float: left;
-    width: 150px;
-    height: 120%;
-    text-align: center;
-}
-
-.gallery img{
-    width: 80%;
-    height: auto;
-}
-
-
-#services{
-    margin-top: 50px;
-} */
 
 
 footer{
