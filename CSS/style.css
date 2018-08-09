@@ -100,10 +100,9 @@ body{
 .boxMenuRow
 {
     display: table;
-    width: 100%; /*Optional*/
-    /* max-height: 2vw; */
-    table-layout: fixed; /*Optional*/
-    border-spacing: 5px; /*Optional*/
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 5px;
 }
 
 .box
@@ -124,7 +123,7 @@ body{
 
 
 
-
+/* 
 .flexContainer{
     display: flex;
     flex-flow: row wrap;
@@ -150,7 +149,7 @@ body{
 
 #services{
     margin-top: 50px;
-}
+} */
 
 
 footer{
