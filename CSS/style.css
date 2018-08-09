@@ -67,6 +67,10 @@ body{
     background-repeat: no-repeat;
 }
 
+.navListContainer{
+    height: 5.7vw;
+}
+
 a{
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -78,8 +82,10 @@ ul.navList{
     float: none;
     text-align: center;
     padding: 0;
-    /* margin: 0; */
+    margin: 0;
     margin-left: 10%;
+    margin-top: 2%;
+    height: 5.7vw;
 }
 
 li{
@@ -90,10 +96,12 @@ li.navOpt{
     float: left;
     padding: 0px 7px;
     text-align: center;
+    height: 5.7vw;
 }
 
 li.navOpt a{
     text-align: center;
+    height: 5.7vw;
 }
 
 li.navOpt a:hover {
