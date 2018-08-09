@@ -13,6 +13,11 @@ p {
     font-size: 1.3vw;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 header{
     text-align: center;
