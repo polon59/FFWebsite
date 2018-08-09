@@ -40,6 +40,8 @@ body{
 }
 
 .logoTextBox{
+    margin-top: 0%;
+    margin-bottom: 0%;
     color: white;
     font-family: LightItalic;
     text-align: center;
@@ -222,16 +224,6 @@ footer{
   margin: auto;
 }
 
-/* Caption text */
-.text {
-  color: #000000;
-  font-size: 30px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
 /* #first{
     color: rgb(192, 192, 192);
@@ -254,10 +246,11 @@ footer{
 .dot {
   height: 15px;
   width: 15px;
+  z-index: 1;
   margin: 0 2px;
   background-color: rgb(255, 111, 111);
   border-radius: 50%;
-  display: inline-block;
+  display: none;
   transition: background-color 0.6s ease;
 }
 
@@ -281,9 +274,4 @@ footer{
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
 }
