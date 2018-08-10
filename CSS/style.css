@@ -8,9 +8,29 @@
     src: url("../Poppins/Poppins-Regular.ttf");
 }
 
+@font-face{
+    font-family: extraThin;
+    src: url("../Poppins/Poppins-Thin.ttf")
+}
+
 p {
-    font-size: 16px; 
+    line-height: 70%;
     font-size: 1.3vw;
+}
+
+h1{
+    font-family: extraThin;
+    font-size: 2.7vw;
+}
+
+h2{
+    font-family: extraThin;
+    font-size: 2.3vw;
+}
+
+h4{
+    font-size: 1.4vw;
+    margin-bottom: 0;
 }
 
 a{
@@ -38,6 +58,7 @@ body{
     margin-right: 7.5%;
     margin-bottom: 2%;
     background-color: rgba(114, 114, 114, 0.021);
+    color: white;
 
 }
 
@@ -49,7 +70,6 @@ body{
 .logoTextBox{
     margin-top: 0%;
     margin-bottom: 0%;
-    color: white;
     font-family: LightItalic;
     text-align: center;
     white-space: normal;
@@ -87,7 +107,6 @@ body{
 .navbarBox{
     display: table-cell;
     text-align: center;
-    color: white;
     padding-bottom: 25px;
     max-height: 20px;
     vertical-align:middle;
@@ -99,6 +118,7 @@ body{
 
 .boxMenuRow
 {
+    /* line-height: 70%; */
     display: table;
     width: 100%;
     table-layout: fixed;
@@ -197,12 +217,24 @@ footer img{
     width: 100%;
 }
 
+.promoTextBox{
+    width: 100%;
+    text-align: center;
+}
+
 
 /* ContactInfo================= */
 
+.contactBoxMenuRow{
+    /* line-height: 70%; */
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    background-color: rgba(252, 212, 15, 0.897);
+}
+
 .contactBox{
     display: table-cell;
-    text-align: center;
     height: 50px;
     width:33%
 }
@@ -213,10 +245,18 @@ footer img{
     border-right: 1px solid white;
 }
 
-.contactBoxMenuRow{
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    /* border-spacing: 5px; */
-    background-color: rgba(252, 212, 15, 0.897);
+#col2 div{
+    margin-left: 25%;
+    text-align: left;
+    vertical-align: middle;
 }
+
+#col3 div{
+    margin-left: 5%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+
+
