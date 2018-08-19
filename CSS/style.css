@@ -14,7 +14,7 @@
 }
 
 p {
-    line-height: 70%;
+    line-height: 120%;
     font-size: 1.3vw;
 }
 
@@ -122,39 +122,39 @@ body{
     
 }
 
-/* BOX MENU ================================== */
+/* Products MENU ================================== */
 
-.boxMenuRow
+.productsBoxMenuRow
 {
     display: table;
     width: 100%;
     table-layout: fixed;
-    border-spacing: 5px;
+    border-spacing: 1.5vw;
 }
 
-.box
+.productsBox
 {
     display: table-cell;
-    text-align: center;
-    background-color: rgba(253, 177, 24, 0.219);
+    text-align: left;
+    /* background-color: rgba(253, 177, 24, 0.219); */
     height: 50px;
 }
 
-.box img{
-    max-width: 5vw;
-    max-height: 5vw;
+.productsBox p{
+    margin-top: 1px;
 }
 
-footer{
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    margin-top: 50px;
+.productsBox h4{
+    font-size: 2vw;
+    margin-top: 2px;
 }
 
-footer img{
+.productsBox img{
     width: 100%;
+    height: 15vw;
 }
+
+
 
 /* slideshow =============================DN*/
 
@@ -280,6 +280,19 @@ footer img{
 
 .phoneBox div h4{
     font-size: 1.7vw;
+}
+
+/* BOTTOM */
+
+footer{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer img{
+    width: 100%;
 }
 
 
