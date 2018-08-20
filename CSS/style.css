@@ -259,6 +259,8 @@ footer img{
     display: table;
     width: 100%;
     table-layout: fixed;
+    background-color: rgba(252, 212, 15, 0.897);
+    box-shadow: inset 2px 2px 160px 0px rgba(117,105,23,1);
 }
 
 .contactBox{
