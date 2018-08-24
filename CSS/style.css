@@ -49,6 +49,10 @@ a:hover{
     color: yellow;
 }
 
+.active{
+    color: black;
+}
+
 header{
     text-align: center;
 }
@@ -126,9 +130,6 @@ footer img{
   transition: background-color 0.6s ease;
 }
 
-.active {
-  background-color: #717171;
-}
 
 /* Fading animation */
 .fade {
@@ -168,7 +169,8 @@ footer img{
 .navbarRow{
     display: table;
     width: 100%;
-    max-height: 2vw;
+    height: 100%;
+    /* max-height: 2vw; */
     table-layout: fixed;
     border-spacing: 1px;
 }
@@ -192,14 +194,15 @@ footer img{
 }
 
 #navbarTelephone{
-    padding-bottom: 0;
+    padding: 0;
     text-align: left;
+    vertical-align: bottom;
 }
 
 #navbarTelephone p{
-    margin-bottom: 0.3vw;
+    margin: 0;
     text-align: left;
-    font-size: 1vw;
+    font-size: 0.95vw;
 }
 
 
