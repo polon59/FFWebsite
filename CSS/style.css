@@ -13,6 +13,10 @@
     src: url("../Poppins/Poppins-Thin.ttf")
 }
 
+li{
+    list-style-type: none;
+}
+
 p {
     line-height: 120%;
     font-size: 1.3vw;
@@ -263,24 +267,23 @@ footer img{
 .contactBox{
     display: table-cell;
     height: 50px;
+    vertical-align: middle;
 }
 
 #col1{
     text-align: center;
-    vertical-align: middle;
     border-right: 1px solid white;
 }
 
 #col2 div{
     margin-left: 25%;
     text-align: left;
-    vertical-align: middle;
 }
 
-#col3 div{
+#col3 {
     margin-left: 5%;
     text-align: left;
-    vertical-align: middle;
+    
 }
 
 /* PhoneBox================= */
