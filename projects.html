@@ -16,7 +16,7 @@
         <div id="navbar">
             <div class="navbarRow">
                 
-                <div class="navbarBox" style="width:30%">
+                <div class="navbarBox" style="width:25%">
                 </div>
 
                 <div class="navbarBox">
@@ -79,12 +79,14 @@
                 <button class="btn" onclick="filterSelection('balustrady')">Balustrady</button>
                 <button class="btn" onclick="filterSelection('bramy')">Bramy</button>
                 <button class="btn" onclick="filterSelection('ogrodzenia')">Ogrodzenia</button>
-                <button class="btn" onclick="filterSelection('another')">inne</button>
+                <button class="btn" onclick="filterSelection('another')">Konstrukcje Stalowe</button>
+                <button class="btn" onclick="filterSelection('another')">Automatyka Bram</button>
+                <button class="btn" onclick="filterSelection('another')">Usługi spawalnicze</button>
             </div>
 
 
             <div class="row">
-                <div class="column balustrady">
+                <div class="column balustrady" id="balustrady">
                     <div class="content">
                     <img src="Resources/galleryImages/balustrady/1.jpg" alt="balustrady" style="width:100%">
                     <!-- <h4>Tytuł</h4>
@@ -235,7 +237,7 @@
                     <img src="Resources/StructureImages/separatingLine.jpg" alt="">
                 </div>
                 
-                <div class="column bramy">
+                <div class="column bramy" id="bramy">
                     <div class="content">
                     <img src="Resources/galleryImages/bramy/1.jpg" alt="bramy" style="width:100%">
                     <!-- <h4>Tytuł</h4>
@@ -274,7 +276,7 @@
                     <img src="Resources/StructureImages/separatingLine.jpg" alt="">
                 </div>
                 
-                <div class="column ogrodzenia">
+                <div class="column ogrodzenia" id="ogrodzenia">
                     <div class="content">
                     <img src="Resources/galleryImages/ogrodzenia/1.jpg" alt="People" style="width:100%">
                     <!-- <h4>Tytuł</h4>
@@ -347,6 +349,8 @@
                 <div class="column ogrodzenia" id="separator">
                     <img src="Resources/StructureImages/separatingLine.jpg" alt="">
                 </div>
+
+                <!-- ADD REMAINING CATEGORIES -->
 
             <script src="JavaScript/imageFilter.js"></script> 
         </section>
