@@ -20,7 +20,9 @@ li{
 
 p {
     line-height: 120%;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
 }
 
 h1{
@@ -30,17 +32,17 @@ h1{
 
 h2{
     font-family: extraThin;
-    font-size: 2.0vw;
+    font-size: 1.8vw;
 }
 
 h3{
     font-family: extraThin;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     margin-bottom: 0;
 }
 
 h4{
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     margin-bottom: 0;
 }
 
@@ -52,6 +54,7 @@ a{
 
 a:hover{
     color: yellow;
+    opacity: 0.5;
 }
 
 .active{
@@ -99,6 +102,11 @@ footer{
     text-align: center;
     width: 100%;
     margin-top: 50px;
+}
+
+footer p{
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
 }
 
 footer img{
@@ -310,10 +318,11 @@ footer img{
 
 .phoneBox div h3{
     margin-top: 0;
+    font-size: 1.3vw;
 }
 
 .phoneBox div h4{
-    font-size: 1.7vw;
+    font-size: 1.5vw;
 }
 
 
@@ -382,10 +391,6 @@ h1 {
     word-break: break-all;
 }
 
-.row {
-    margin: 8px -16px;
-}
-
 /* Create three equal columns that floats next to each other */
 .column {
     float: left;
@@ -402,8 +407,8 @@ h1 {
 
 /* Content */
 .content {
-    /* background-color: white; */
-    padding: 10px;
+    padding-right: 0.4vw;
+    padding-left: 0.4vw;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -419,10 +424,11 @@ h1 {
 
 /* Style the buttons */
 .btn {
+    font-size: 1.1vw;
     color: white;
   border: none;
   outline: none;
-  padding: 12px 16px;
+  padding: 1vw 0.9vw;
   background-color: rgb(219, 190, 0);
   cursor: pointer;
 }
