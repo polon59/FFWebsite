@@ -15,6 +15,7 @@
 
 li{
     list-style-type: none;
+    padding: 0.5vw;
 }
 
 p {
@@ -72,7 +73,7 @@ body{
     margin-top: 0%;
     margin-left: 7.5%;
     margin-right: 7.5%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
     background-color: rgba(114, 114, 114, 0.021);
     color: white;
 }
@@ -256,7 +257,7 @@ footer img{
 /* ContactInfo================= */
 
 .contactBoxMenuRow{
-    /* line-height: 70%; */
+    line-height: 70%;
     display: table;
     width: 100%;
     table-layout: fixed;
@@ -352,6 +353,17 @@ footer img{
 
 
 /* ============================GALLERY IMAGES =========================================== */
+.topText{
+    width: 100%;
+    text-align: center;
+    line-height: 1.5vw;
+    margin-bottom: 1vw;
+}
+.topText p{
+    display: inline;
+}
+
+
 
 #separator{
     width: 100%;
@@ -399,22 +411,29 @@ h1 {
     display: block;
 }
 
+#myBtnContainer{
+    width: 100%;
+    background-color: rgb(219, 190, 0);
+    text-align: center;
+}
+
 /* Style the buttons */
 .btn {
+    color: white;
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: white;
+  background-color: rgb(219, 190, 0);
   cursor: pointer;
 }
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
-  background-color: #ddd;
+  background-color: rgb(182, 160, 17);
 }
 
 /* Add a dark background color to the active button */
 .btn.active {
-  background-color: #666;
-   color: white;
+  background-color: white;
+   color: rgb(219, 190, 0);
 }
