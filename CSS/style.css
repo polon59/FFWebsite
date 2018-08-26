@@ -18,6 +18,10 @@ li{
     padding: 0.5vw;
 }
 
+ul{
+    margin: 0;
+}
+
 p {
     line-height: 120%;
     font-size: 1.1vw;
@@ -355,10 +359,11 @@ footer img{
 }
 
 .aboutUsBox h4{
-    margin-top: 0;
-    margin-bottom: 0;
+    /* margin-top: 0;
+    margin-bottom: 0; */
     font-size: 1.1vw;
     letter-spacing: 0.5vw;
+    display: inline;
 }
 
 
