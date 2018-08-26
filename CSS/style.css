@@ -44,6 +44,7 @@ h3{
 h4{
     font-size: 1.2vw;
     margin-bottom: 0;
+    font-family: extraThin;
 }
 
 a{
@@ -446,7 +447,7 @@ h1 {
 
 /* +++++++++++++++++++++++++++++++++++ ZOOM ++++++++++++++++++++++++++++++++ */
 .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.87);
     bottom: 0;
     cursor: default;
     left: 0;
@@ -485,6 +486,7 @@ h1 {
     -ms-transition: opacity .5s, top .5s;
     -o-transition: opacity .5s, top .5s;
     transition: opacity .5s, top .5s;
+    text-align: center;
 }
 .overlay:target+.popup {
     top: 50%;
