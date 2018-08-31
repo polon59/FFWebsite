@@ -86,6 +86,20 @@ body{
     color: white;
 }
 
+@media screen and (max-width: 600px) {
+    #MAIN {
+        margin-top: 0%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 0%;
+    }
+
+    p{
+        font-size: 1.5vw;
+
+    }
+  }
+
 #logo{
     width: 25%;
     height: 15%;
