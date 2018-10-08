@@ -232,7 +232,7 @@ footer img{
     display: table;
     width: 100%;
     table-layout: fixed;
-    border-spacing: 3vw;
+    border-spacing: 1.5vw;
 }
 
 .productsBox
