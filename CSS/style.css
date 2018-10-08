@@ -422,8 +422,13 @@ h1 {
 
 /* Content */
 .content {
-    padding-right: 0.4vw;
-    padding-left: 0.4vw;
+    height: 15vw;
+    padding: 0.5vw;
+}
+
+.content img{
+    height: 100%;
+    width: 100%;
 }
 
 /* The "show" class is added to the filtered elements */
