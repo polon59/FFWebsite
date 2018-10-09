@@ -1,5 +1,3 @@
-/* ABOUT 00000000000000000000000000000000000000000000000000000000000000000000000 */
-
 .aboutUsBoxMenuRow{
     display: table;
     width: 100%;
@@ -26,8 +24,6 @@
 }
 
 .aboutUsBox h4{
-    /* margin-top: 0;
-    margin-bottom: 0; */
     font-size: 1.1vw;
     letter-spacing: 0.5vw;
     display: inline;
@@ -41,11 +37,10 @@
     line-height: 1.5vw;
     margin-bottom: 1vw;
 }
+
 .topText p{
     display: inline;
 }
-
-
 
 #separator{
     width: 100%;
@@ -64,21 +59,18 @@ h1 {
     word-break: break-all;
 }
 
-/* Create three equal columns that floats next to each other */
 .column {
     float: left;
     width: 25%;
-    display: none; /* Hide columns by default */
+    display: none;
 }
 
-/* Clear floats after rows */ 
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Content */
 .content {
     height: 15vw;
     padding: 0.3vw;
@@ -89,7 +81,6 @@ h1 {
     width: 100%;
 }
 
-/* The "show" class is added to the filtered elements */
 .show {
     display: block;
 }
@@ -100,7 +91,6 @@ h1 {
     text-align: center;
 }
 
-/* Style the buttons */
 .btn {
     font-size: 1.1vw;
     color: white;
@@ -111,18 +101,15 @@ h1 {
   cursor: pointer;
 }
 
-/* Add a grey background color on mouse-over */
 .btn:hover {
   background-color: rgb(182, 160, 17);
 }
 
-/* Add a dark background color to the active button */
 .btn.active {
   background-color: white;
    color: rgb(219, 190, 0);
 }
 
-/* +++++++++++++++++++++++++++++++++++ ZOOM ++++++++++++++++++++++++++++++++ */
 .overlay {
     background-color: rgba(0, 0, 0, 0.87);
     bottom: 0;
@@ -140,6 +127,7 @@ h1 {
     -o-transition: opacity .5s;
     transition: opacity .5s;
 }
+
 .overlay:target {
     visibility: visible;
     opacity: 1;
@@ -165,11 +153,13 @@ h1 {
     transition: opacity .5s, top .5s;
     text-align: center;
 }
+
 .overlay:target+.popup {
     top: 50%;
     opacity: 1;
     visibility: visible;
 }
+
 .close {
     background-color: rgba(0, 0, 0, 0.8);
     height: 2vw;
@@ -186,12 +176,14 @@ h1 {
     -o-border-radius: 15px;
     border-radius: 15px;
 }
+
 .close:before {
     color: rgba(255, 255, 255, 0.9);
     content: "X";
     font-size: 24px;
     text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
 }
+
 .close:hover {
     background-color: rgba(211, 182, 16, 0.8);
 }
