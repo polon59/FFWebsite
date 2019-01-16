@@ -74,6 +74,7 @@ body{
     margin: 0px;
     background-color: black;
     background-image: url("../Resources/bodyBackground.png");
+    background-attachment: fixed;
 }
 
 #MAIN{
